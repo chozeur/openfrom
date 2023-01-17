@@ -1,12 +1,12 @@
 from	setuptools	import	setup
 
 setup(
-	name='openFrom',
-	version='0.1',
-	py_modules=['openFrom'],
+	name='openfrom',
+	version='0.0.420',
+	py_modules=['openfrom'],
 	entry_points={
 		'console_scripts': [
-			'openFrom=openFrom:main'
+			'openfrom=openfrom:main'
 		]
 	}
 )

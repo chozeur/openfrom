@@ -3,9 +3,9 @@ import	argparse
 import	subprocess
 
 def	main():
-	parser = argparse.ArgumentParser(prog = 'openFrom',
-									description = 'openFrom is a tool that opens multiple pages from a single base URL by appending unique strings to it and opening them in separate tabs.',
-									epilog = 'Report any issue at https://github.com/chozeur/openFrom')
+	parser = argparse.ArgumentParser(prog = 'openfrom',
+									description = 'openfrom is a tool that opens multiple pages from a single base URL by appending unique strings to it and opening them in separate tabs.',
+									epilog = 'Report any issue at https://github.com/chozeur/openfrom')
 	parser.add_argument('baseURL', metavar='baseURL', type=str,
 						help='Base URL')
 	parser.add_argument('endPoints', metavar='endPoints', type=str, nargs='*',
@@ -27,5 +27,5 @@ def	main():
 	for endP in args.endPoints:
 		subprocess.run(["open", args.baseURL + endP])
 
-if __name__ == '__main__':
-	main()
+# if __name__ == '__main__':
+# 	main()
