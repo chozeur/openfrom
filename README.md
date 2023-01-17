@@ -6,7 +6,7 @@
 
 `openfrom [BASE_URL] [EP1 EP2 EP3 . . .]`
 
-e.g:
+*e.g:*
 
 	openfrom "http://youtube.com/watch?v=" "dQw4w9WgXcQ"
 
