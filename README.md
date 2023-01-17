@@ -4,7 +4,7 @@
 `pip install openfrom`
 # Use
 
-`openfrom [BASE_URL] [EP1 EP2 EP3 . . .]`
+`openfrom [BASE_URL] [EP1 <EP2 EP3 . . .>]`
 
 *e.g:*
 
