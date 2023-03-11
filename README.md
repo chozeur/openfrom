@@ -12,4 +12,4 @@
 
 or
 
-`openfrom < -r, --read <FILE> > <BASE_URL>`
+`openfrom <-r, --read <FILE>> <BASE_URL>`
